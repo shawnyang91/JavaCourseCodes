@@ -37,7 +37,6 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
                 filter.filter(fullRequest, ctx);
             }
             handler.handle(fullRequest, ctx);
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
