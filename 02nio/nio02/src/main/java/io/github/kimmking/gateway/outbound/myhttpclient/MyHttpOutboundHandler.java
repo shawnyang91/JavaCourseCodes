@@ -54,7 +54,6 @@ public class MyHttpOutboundHandler {
         doGet(fullRequest, ctx, url);
     }
 
-
     /**
      * 发送get请求
      *
